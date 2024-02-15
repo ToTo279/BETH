@@ -106,7 +106,7 @@ Die Satelliten-Software wurde in C++ mit Hilfe von Espressifs Wifi-Bibliothek un
 ##### Test der Kommunikation
 Verschiedene Testfälle wurden durchgeführt, darunter der reibungslose Betrieb paralleler Verbindungen und die erfolgreiche Erkennung von Verbindungsunterbrechungen. Die Kommunikation wurde über mehrere Stunden ohne Unterbrechungen getestet.
 
-#### Installation und Nutzung
+## Installation und Nutzung
 1. Klone das Repository: `git clone [Repository-Link]`
 2. Folge den Anweisungen in der Installationsanleitung, um das System einzurichten.
 3. Erkunde die verschiedenen Funktionen und Anwendungsbereiche im Projekt.
