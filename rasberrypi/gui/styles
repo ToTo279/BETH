@@ -1,0 +1,178 @@
+QPushButton {
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 12px;
+    color: #f9fdfe;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #2c80fd;
+    max-width: 300px;
+}
+
+
+QPushButton#refresh {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 12px;
+    color: #f9fdfe;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #2c80fd;
+    max-width: 300px;
+}
+
+QWidget#mainWindow {
+    background-color: #fbfcfb
+}
+
+QPushButton:hover {
+    color: #a1b6f2;
+}
+
+QPushButton:pressed,
+QToolButton:pressed,
+QCommandLinkButton:pressed {
+    background-color: #a1b6f2;
+}
+
+QPushButton:focus {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+QPushButton#round {
+    padding: 10px 10px 10px 10px;
+    border-radius: 20%;
+}
+
+QLabel {
+    color: #0a1a29;
+    font-size: 18px;
+}
+
+QLabel#medium {
+    font-size: 22px;
+}
+
+QLabel#large {
+    font-size: 26px;
+}
+
+QLabel#large-bold {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+QLabel#title {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+QLabel#console {
+    font-family: 'Consolas';
+}
+
+QLabel#title_big {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+QLabel#big {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+QLabel#subtitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin-top: 0px;
+    padding-top: -20px;
+}
+
+QLabel#roundRed {
+    border-radius: 30px;
+    background-color: #fa4646;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    qproperty-alignment: AlignCenter;
+    line-height: 50px;
+    text-align: center;
+}
+
+QLabel#roundGreen {
+    border-radius: 30px;
+    background-color: #40b53a;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    qproperty-alignment: AlignCenter;
+    line-height: 50px;
+    text-align: center;
+}
+
+QWidget#GameField {
+    background-color: #fbfcfb;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+}
+
+QLabel#countdownLabel {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+QLabel#roundFieldYellow {
+    border-radius: 20px;
+    background-color: #f4f72f;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    qproperty-alignment: AlignCenter;
+    line-height: 50px;
+    text-align: center;
+}
+
+QLabel#roundFieldRed {
+    border-radius: 20px;
+    background-color: #fa4646;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    qproperty-alignment: AlignCenter;
+    line-height: 50px;
+    text-align: center;
+}
+
+QLabel#roundFieldGreen {
+    border-radius: 20px;
+    background-color: #46fa55;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    qproperty-alignment: AlignCenter;
+    line-height: 50px;
+    text-align: center;
+}
+
+QLabel#roundFieldBlue {
+    border-radius: 20px;
+    background-color: #464cfa;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    qproperty-alignment: AlignCenter;
+    line-height: 50px;
+    text-align: center;
+}
+
+QMainWindow {
+    background-color: qlineargradient(spread:pad, x1: 0.2, y1: 0, x2: 0.5, y2:1, stop:0 #a1c4fd, stop:1 #c2e9fb);
+}
