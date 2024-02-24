@@ -61,12 +61,12 @@ Die Umsetzung einer effektiven Audiowiedergabe erfordert präzise Signalverarbei
 Die Integration der LED-Beleuchtung in das Projekt bietet eine ästhetische Komponente und erweitert die Funktionalität. Die Wahl der RGB-LEDs WS2812B ermöglicht die flexible Ansteuerung jeder einzelnen LED, was eine vielfältige Gestaltung der Beleuchtung und die Umsetzung verschiedener Spielmodi ermöglicht. Die LEDs dienen auch zur Anzeige von Statusinformationen wie dem Verbindungsstatus und dem Batteriezustand.
 
 #### Funktionsweise
-Die Platine für die LED-Beleuchtung wurde so gestaltet, dass sie neben den RGB-LEDs WS2812B auch alle notwendigen Komponenten enthält, um eine nahtlose Integration in das Gesamtsystem zu gewährleisten. Die Anordnung der LEDs in einem Ring ermöglicht die Erzeugung kreativer Lichteffekte, die das Spielerlebnis intensivieren.
+Die Platine für die LED-Beleuchtung wurde so gestaltet, dass sie neben den RGB-LEDs WS2812B auch alle notwendigen Komponenten enthält, um eine nahtlose Integration in das Gesamtsystem zu gewährleisten. Die Anordnung der LEDs in einem Ring und dem LED-Streifen ermöglichen die Erzeugung kreativer Lichteffekte, die das Spielerlebnis intensivieren.
 
 Die WS2812B RGB-LEDs haben vier Pins: Versorgungsspannung, Masse, Eingangssignal und Ausgangssignal. Die Verbindung zwischen den LEDs erfolgt durch Verknüpfung des Ausgangssignal-Pins einer LED mit dem Eingangssignal-Pin der nächsten LED. Die Status-LED auf der Seite des Gehäuses kommuniziert über verschiedene Farben und Blinkmuster wichtige Informationen, wie den Verbindungsstatus mit anderen Satelliten oder den Batteriezustand.
 
 #### Schaltplan
-Aufgrund des begrenzten Platzes im Gehäuse wurden 16 LEDs auf die Hauptplatine des Moduls gesetzt. Die LEDs sind mit dem Mikrocontroller verbunden, um das Eingangssignal, die Spannungsversorgung und die Masse zu erhalten, und leiten das Signal an die Status-LED und den LED-Streifen weiter.
+Es wurden 16 LEDs auf einer eigenen Platine kreisförmig angeordnet. Die LEDs sind mit dem Mikrocontroller verbunden, um das Eingangssignal, die Spannungsversorgung und die Masse zu erhalten, und leiten das Signal an die Status-LED und den LED-Streifen weiter.
 
 #### PCB
 Die Leiterplatte (PCB) wurde entsprechend dem Schaltplan erstellt. Die LEDs wurden in einem Kreis angeordnet, und auf der anderen Seite der Platine wurden der große Kondensator und der Widerstand platziert.
