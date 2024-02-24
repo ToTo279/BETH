@@ -10,6 +10,17 @@ Das Elektronikprojekt konzentriert sich auf verschiedene Aspekte der Elektrotech
 
 ---
 
+### Gehäuse
+Das BETH-System besteht aus einer Basisstation und vier Satelliten. Die Basisstation, bestehend aus einem Raspberry Pi und einem Touchdisplay, verwendet ein käuflich erhältliches Gehäuse für optimale Bedienung und Sichtbarkeit.
+
+Für die Satelliten wurde ein Gehäuse mittels 3D-Druck und CAD-Programm entworfen. Tough PLA für Unterteil und Brücke sowie CPE+ für Oberteil und Status-LED-Fenster sorgen für Robustheit und Flexibilität.
+
+Das Unterteil des Gehäuses verfügt über Öffnungen für Lautsprecher, Taster, USB-C-Buchse und Status-LED. Auflageflächen für Spannungsversorgungs- und LED-Platinen sind integriert. M3-Schmelzgewinde gewährleisten eine sichere Schraubverbindung.
+
+Die Brücke zwischen den Platinen ermöglicht eine modulare Montage. Das Oberteil beinhaltet einen LED-Streifen, einen Touchsensor und drei Abstandssensoren. Die glatte Oberfläche gewährleistet eine angenehme Haptik.
+
+**Modelle für Gehäuse und Platinen befinden sich im Ordner "Modelle".**
+
 ### Audio
 #### Eingliederung in das Projekt
 Die Umsetzung einer effektiven Audiowiedergabe erfordert präzise Signalverarbeitung und Kontrolle. Im Fokus steht die Audiowiedergabe, bei der mehrere Schaltungselemente kombiniert wurden, um optimale Klangqualität und Steuerbarkeit zu gewährleisten. Die Grundlage bildet ein Audioplayer-Modul, dem im Verlauf der Realisierung verschiedene Elemente hinzugefügt wurden.
