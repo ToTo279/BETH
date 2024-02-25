@@ -1,6 +1,6 @@
 # BETH - Badminton Equipment for Training and Health
 
-![BETH](BETH.jpg)
+![BETH](BETH.jpeg)
 
 ## Projektbeschreibung
 Das Elektronikprojekt konzentriert sich auf verschiedene Aspekte der Elektrotechnik, darunter die Programmierung von Mikrocontrollern, die Analyse und Umsetzung der Energieversorgung kleinerer Geräte sowie die Implementierung von Sensoren, optischen und akustischen Bausteinen. Das Hauptziel besteht darin, ein System zu entwickeln, das sowohl im sportlichen Bereich als auch im Freizeitbereich Anwendung findet. BETH (Badminton Equipment for Training and Health) wurde entwickelt, um Spielern die Möglichkeit zu geben, ihre Reaktionsfähigkeit, Bewegungskoordination und Ausdauer zu verbessern, indem es eine dynamische und unterhaltsame Umgebung schafft.
