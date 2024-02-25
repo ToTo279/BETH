@@ -81,9 +81,7 @@ Die Umsetzung einer effektiven Audiowiedergabe erfordert präzise Signalverarbei
 - Beachte die Platzbeschränkungen bei der Implementierung der Audiofunktionen.
 - Stelle sicher, dass die Spannungsversorgung und EMC-Richtlinien eingehalten werden.
 
----
-
-### LED-Beleuchtung im Projekt
+### LED-Beleuchtung
 #### Eingliederung in das Projekt
 Die Integration der LED-Beleuchtung in das Projekt bietet eine ästhetische Komponente und erweitert die Funktionalität. Die Wahl der RGB-LEDs WS2812B ermöglicht die flexible Ansteuerung jeder einzelnen LED, was eine vielfältige Gestaltung der Beleuchtung und die Umsetzung verschiedener Spielmodi ermöglicht. Die LEDs dienen auch zur Anzeige von Statusinformationen wie dem Verbindungsstatus und dem Batteriezustand.
 
@@ -101,9 +99,7 @@ Die Leiterplatte (PCB) wurde entsprechend dem Schaltplan erstellt. Die LEDs wurd
 #### Programmierung
 Für die Steuerung der LEDs wurde die Neopixel-Bibliothek von Adafruit Industries verwendet. Die Programmierung ermöglicht eine flexible und anpassbare visuelle Gestaltung, um das LEDmintons-Erlebnis zu verbessern. Die Integration dieser Programmierfunktionalitäten erlaubt die Steuerung der Beleuchtungseffekte in Echtzeit während des Spielbetriebs.
 
----
-
-### Sensorik im Projekt
+### Sensorik
 #### Eingliederung in das Projekt
 Im Sensorik-Kapitel wird die Integration der im Projekt verwendeten Sensoren beschrieben. Sensoren sind in der Lage, Informationen von der Umgebung aufzunehmen und elektrische Signale zu erzeugen. Im Projekt wurden Sensoren ausgewählt, die spezifische Anforderungen erfüllen sollten, darunter die Detektion des Badmintonschlägers auf unterschiedlichen Distanzen und die schnelle Reaktion auf Bewegungen.
 
@@ -119,8 +115,6 @@ Der Touchsensor basiert auf den Touchpins des ESP32. Die Berührung einer Metall
 
 **Programmierung und Interrupts**
 Um eine schnelle Reaktion der TOF-Sensoren zu gewährleisten, wurden Interrupts in der Programmierung verwendet. Diese ermöglichen eine zuverlässige Detektion von Umweltveränderungen und eine unmittelbare Weiterleitung an den ESP32.
-
----
 
 ### Kommunikation
 #### Eingliederung in das Projekt
@@ -143,6 +137,8 @@ Die Satelliten-Software wurde in C++ mit Hilfe von Espressifs Wifi-Bibliothek un
 
 ##### Test der Kommunikation
 Verschiedene Testfälle wurden durchgeführt, darunter der reibungslose Betrieb paralleler Verbindungen und die erfolgreiche Erkennung von Verbindungsunterbrechungen. Die Kommunikation wurde über mehrere Stunden ohne Unterbrechungen getestet.
+
+---
 
 ## Installation und Nutzung
 1. Klone das Repository: `git@github.com:ToTo279/BETH.git`
