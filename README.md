@@ -21,6 +21,31 @@ Die Brücke zwischen den Platinen ermöglicht eine modulare Montage. Das Obertei
 
 **Modelle für Gehäuse und Platinen befinden sich im Ordner "Modelle".**
 
+### Energieversorgung
+
+Dieser Abschnitt bietet einen Überblick über das Energiemodul des BETH-Projekts, einschließlich seiner Integration, Funktionsweise, verwendeten Komponenten, Schaltplan und Leiterplatte, sowie Tests und Reflexionen.
+
+#### Eingliederung in das Projekt
+
+Die Entscheidung für die Energieversorgung der Satelliten basierte auf der Wahl zwischen Netzbetrieb, Batterie oder Akkubetrieb. Die Akkubetriebsoption wurde gewählt, um Flexibilität, einfache Handhabung und ästhetisches Design zu gewährleisten. Das Energiemodul ist ein Schlüsselelement der Satelliten, neben dem ESP32 Mikrocontroller.
+
+#### Funktionsweise
+
+Das Energiemodul erfüllt verschiedene Anforderungen, darunter eine 45- bis 60-minütige Energieversorgung, Aufladung über einen USB-C-Anschluss, Bereitstellung von 5 Volt DC bei maximal 1,5 Ampere, Ein- und Ausschalten am Gehäuse, softwaregesteuertes Ausschalten und Schutz vor Gefahren.
+
+#### Verwendete Baugruppen
+
+- Batteriezelle (XTAR 18650)
+- Charge IC (BQ24092DGQR)
+- Step-up DC-DC Converter (TPS61085)
+- eFuse (TPS259621DDAT)
+- Ein-Aus-Schalter (CMOS J-K Flip Flop)
+- Protection IC (XB8089D)
+
+#### Schaltplan und Leiterplatte
+
+Der Schaltplan und die Leiterplatte wurden unter Berücksichtigung der Datenblätter der Komponenten entwickelt. Der Schaltplan enthält ICs, passiven Bauteilen und Testpunkten. Die Leiterplatte wurde sorgfältig gestaltet, wobei auf großräumige Flächen an energiereichen Stellen und Testpunkte für einfaches Debugging geachtet wurde.
+
 ### Audio
 #### Eingliederung in das Projekt
 Die Umsetzung einer effektiven Audiowiedergabe erfordert präzise Signalverarbeitung und Kontrolle. Im Fokus steht die Audiowiedergabe, bei der mehrere Schaltungselemente kombiniert wurden, um optimale Klangqualität und Steuerbarkeit zu gewährleisten. Die Grundlage bildet ein Audioplayer-Modul, dem im Verlauf der Realisierung verschiedene Elemente hinzugefügt wurden.
